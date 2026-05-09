@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ai-n8n-builder
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
